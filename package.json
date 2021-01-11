@@ -1,0 +1,30 @@
+{
+  "name": "course-system-server",
+  "version": "1.0.0",
+  "description": "server side",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  },
+  "devDependencies": {},
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Nikole Waintraub",
+  "license": "ISC"
+}
